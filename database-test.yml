@@ -1,0 +1,9 @@
+datasource:
+  pmt:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://IL1LPMMDW02.lighthousepartners.com:1433;databaseName=mas
+    username: pmtuser
+    password: L1ghtH0us3
+    name: pmt
+    jmx-enabled: true
+    validationQuery: SELECT 1
